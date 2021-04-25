@@ -17,6 +17,7 @@ body {
   align-items: flex-end;
   height: 100vh;
   padding-right: 3vw;
+  text-align: right;
 }
 
 #card-head {
@@ -63,7 +64,7 @@ ul {
 li a {
   font-size: 4vh;
   padding: 2vh;
-  width: 2vw;
+  width: 45px;
   display: flex;
   justify-content: center;
   align-items: center;
