@@ -1,4 +1,5 @@
-* {
+html,
+body {
   margin: 0;
 }
 
@@ -78,4 +79,20 @@ div a {
   font-size: 24px;
   margin-top: 20px;
   color: white;
+}
+
+@media (max-width: 800px) {
+  #card {
+    flex-direction: column;
+  }
+  #card-details {
+    width: 100vw;
+    align-items: center;
+    text-align: center;
+  }
+  #card-head {
+    width: 100vw;
+    left: 0;
+    right: 0;
+  }
 }
