@@ -82,6 +82,12 @@ div a {
 }
 
 @media (max-width: 800px) {
+  h1 {
+    margin: 40px 0 0 0;
+  }
+  img {
+    margin-top: 40px;
+  }
   #card {
     flex-direction: column;
   }
