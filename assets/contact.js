@@ -1,0 +1,1 @@
+document.write('<p style="color:white"> E-mail me at: <p> <A HREF="mailto:arturssimon@gmail.com">arturssimon@gmail.com</a>');
