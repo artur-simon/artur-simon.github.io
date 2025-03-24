@@ -3,6 +3,7 @@
     <head>
         <title>Artur S Simon - Desenvolvedor</title>
         <link href="assets/style.css" rel="stylesheet">
+        <link href="assets/projects.css" rel="stylesheet">
         <link rel="icon" type="image/png" href="assets/favicon.png"/>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta property="og:image" content="/assets/preview.jpg">    
@@ -12,10 +13,11 @@
     <body>
         <section id="card" class="pageSection">
             <div id="card-details"> 
-                    <h1 class="logo">&lt;<span style="color: blue">/</span>&gt;</h1>
-                    <h1>Artur S. Simon</h1>
-                    <h2>Fullstack developer</h2>
-                    <p>Writing desktop and web applications in c#, java, and php.</p>
+                    <h1 class="logo"><span class="fade-in" style="color: blue">/</span></h1>
+                    <h1 class="slide-in-1s-delay">Artur S. Simon</h1>
+                    <h2 class="slide-in-2s-delay">Fullstack developer</h2>
+                    <p class="fade-in">Fullstack developer focused on building modern, scalable, and high-performance applications.
+                        <br/>Experienced in software architecture and development for enterprise applications.</p>
             </div>
             <div id="card-head">    
                 <img src="assets/profile.jpg" alt="">
@@ -35,5 +37,33 @@
             <script language="javascript" src="assets/contact.js"></script>
             </div>
         </section>
+        <section id="projects-section">
+            <h1>Projects</h1>
+            <div class="projects-container">
+                <div class="projects-container">
+                    <div class="project-card">
+                        <h2>Apartment Store</h2>
+                        <p>A sophisticated local commerce platform designed for grocery sales within my condominium. It includes product listings, categories, checkout functionality, PIX and QR code payments, and a direct WhatsApp purchase link. Made with Next.js and hosted in Vercel.</p>
+                        <a href="https://tudoaqui.vercel.app" target="_blank" rel="noopener noreferrer" class="project-link">
+                            Visit the Store →
+                        </a>
+                    </div>
+                    <div class="project-card">
+                        <h2>Interactive Games Collection</h2>
+                        <p>A set of simple yet engaging games built using p5.js, showcasing creative coding and interactive design.</p>
+                        <a href="https://github.com/stars/artur-simon/lists/processing-games" target="_blank" rel="noopener noreferrer" class="project-link">
+                            Explore on GitHub →
+                        </a>
+                    </div>
+                    <div class="project-card">
+                        <h2>Whisper Voice Transcriber</h2>
+                        <p>A voice transcription tool using WhisperModel for speech recognition. It records audio when scroll-lock is pressed, transcribes it, saves the text to a file, and copies it to the clipboard for easy pasting. It also supports transcription from audio files.</p>
+                        <a href="https://github.com/artur-simon/Faster-Whisper-Implementation" target="_blank" rel="noopener noreferrer" class="project-link">
+                            Explore on GitHub →
+                        </a>
+                    </div>
+            </div>
+        </section>
+        
     </body>
 </html>
