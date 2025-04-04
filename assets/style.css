@@ -52,17 +52,17 @@ body {
 }
 
 .nav-links a {
-    text-decoration: none;
-    color: var(--text-color);
-    font-weight: 500;
-    transition: color 0.3s ease, border-bottom 0.3s ease;
-    padding-bottom: 0.25rem;
-    border-bottom: 2px solid transparent;
+  text-decoration: none;
+  color: var(--text-color);
+  font-weight: 500;
+  transition: color 0.3s ease, border-bottom 0.3s ease;
+  padding-bottom: 0.25rem;
+  border-bottom: 2px solid transparent;
 }
 
 .nav-links a:hover, .nav-links a:focus, .nav-links a.active {
-    color: var(--primary-color);
-    border-bottom: 2px solid var(--primary-color);
+  color: var(--primary-color);
+  border-bottom: 2px solid var(--primary-color);
 }
 
 /* Hero Section */
@@ -84,16 +84,18 @@ body {
     padding: 2rem;
 }
 
+.slash {
+  color: var(--primary-color);
+}
+
 .hero-content h1 {
-    font-size: 3.5rem;
-    margin-bottom: 1rem;
+    font-size: 4rem;
     color: var(--text-color);
 }
 
 .hero-content h2 {
     font-size: 2rem;
     color: var(--secondary-color);
-    margin-bottom: 2rem;
 }
 
 /* About Section */
@@ -200,7 +202,7 @@ body {
 
 /* Footer */
 .footer {
-    background-color: #333;
+    background-color: var(--secondary-color);
     color: white;
     padding: 2rem;
 }
@@ -355,7 +357,9 @@ body {
 /* Skills Section */
 .skills-section {
     padding: 6rem 2rem;
-    background-color: #0e1525;
+    background-image: radial-gradient(#DCE4E9 2px, transparent 2px);
+    background-size: 80px 80px;
+    background-color: #E8EBEF;
     color: #fff;
 }
 
@@ -368,14 +372,14 @@ body {
     text-align: center;
     font-size: 2.5rem;
     margin-bottom: 1rem;
-    color: #fff;
+    color: var(--text-color);
 }
 
 .skills-intro {
     text-align: center;
     max-width: 700px;
     margin: 0 auto 3rem;
-    color: #adb5bd;
+    color: var(--text-color);
     font-size: 1.1rem;
     line-height: 1.6;
 }
@@ -387,7 +391,7 @@ body {
 }
 
 .skill-category {
-    background-color: #131c31;
+    background-color: var(--background-color);
     border-radius: 12px;
     padding: 1.5rem;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
@@ -395,6 +399,10 @@ body {
     display: flex;
     flex-direction: column;
     border: 1px solid #253049;
+}
+
+.skill-title {
+  display: flex;
 }
 
 .skill-category:hover {
@@ -406,7 +414,7 @@ body {
 .skill-icon {
     width: 2.25rem;
     height: 2.25rem;
-    display: inline-flex;
+    display: flex;
     align-items: center;
     justify-content: center;
     margin-right: 0.75rem;
@@ -415,13 +423,13 @@ body {
 .skill-icon svg {
     width: 1.5rem;
     height: 1.5rem;
-    color: #3b82f6;
+    color: var(--primary-color);
 }
 
 .skill-category h3 {
     font-size: 1.25rem;
     margin-bottom: 1.25rem;
-    color: #f8f9fa;
+    color: var(--text-color);
     display: flex;
     align-items: center;
     font-weight: 600;
@@ -437,7 +445,7 @@ body {
     margin-bottom: 0.75rem;
     position: relative;
     padding-left: 1.25rem;
-    color: #adb5bd;
+    color: var(--secondary-color);
     font-size: 0.95rem;
 }
 
