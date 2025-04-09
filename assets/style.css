@@ -72,8 +72,8 @@ body {
     align-items: center;
     justify-content: center;
     text-align: center;
-    background: radial-gradient(at bottom right, #F1F7FF 0, #F1F7FF 25px, #F1F7FF33 25px, #F1F7FF33 50px, #F1F7FFBF 50px, #F1F7FFBF 75px, #F1F7FF40 75px, #F1F7FF40 100px, #F1F7FF4D 100px, #F1F7FF4D 125px, #F1F7FFBF 125px, #F1F7FFBF 150px, #F1F7FF33 150px, #F1F7FF33 175px, transparent 175px, transparent 200px), radial-gradient(at top left, transparent 0, transparent 25px, #F1F7FF33 25px, #F1F7FF33 50px, #F1F7FFBF 50px, #F1F7FFBF 75px, #F1F7FF4D 75px, #F1F7FF4D 100px, #F1F7FF40 100px, #F1F7FF40 125px, #F1F7FFBF 125px, #F1F7FFBF 150px, #F1F7FF33 150px, #F1F7FF33 175px, #F1F7FF 175px, #F1F7FF 200px, transparent 200px, transparent 500px);
-    background-blend-mode: multiply;
+	background: radial-gradient(at bottom right, #F9FCFF 0, #F9FCFF 25px, #F9FCFF33 25px, #F9FCFF33 50px, #F9FCFFBF 50px, #F9FCFFBF 75px, #F9FCFF40 75px, #F9FCFF40 100px, #F9FCFF4D 100px, #F9FCFF4D 125px, #F9FCFFBF 125px, #F9FCFFBF 150px, #F9FCFF33 150px, #F9FCFF33 175px, transparent 175px, transparent 200px), radial-gradient(at top left, transparent 0, transparent 25px, #F9FCFF33 25px, #F9FCFF33 50px, #F9FCFFBF 50px, #F9FCFFBF 75px, #F9FCFF4D 75px, #F9FCFF4D 100px, #F9FCFF40 100px, #F9FCFF40 125px, #F9FCFFBF 125px, #F9FCFFBF 150px, #F9FCFF33 150px, #F9FCFF33 175px, #F9FCFF 175px, #F9FCFF 200px, transparent 200px, transparent 500px);
+	background-blend-mode: multiply;
     background-size: 200px 200px, 200px 200px;
     background-color: #ECECEC;
     padding-top: 60px;
